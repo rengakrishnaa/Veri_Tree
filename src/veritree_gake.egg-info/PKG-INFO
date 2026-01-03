@@ -1,0 +1,11 @@
+Metadata-Version: 2.4
+Name: veritree-gake
+Version: 0.1.0
+Summary: Quantum-safe group key agreement for company hierarchies
+Requires-Dist: oqs
+Requires-Dist: cbor2
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: fastapi; extra == "dev"
+Requires-Dist: uvicorn; extra == "dev"
+Requires-Dist: pydantic; extra == "dev"

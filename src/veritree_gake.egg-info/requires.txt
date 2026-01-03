@@ -1,0 +1,8 @@
+oqs
+cbor2
+
+[dev]
+pytest
+fastapi
+uvicorn
+pydantic

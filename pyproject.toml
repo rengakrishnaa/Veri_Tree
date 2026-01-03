@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "veritree-gake"
+version = "0.1.0"
+description = "Quantum-safe group key agreement for company hierarchies"
+dependencies = [
+    "oqs",
+    "cbor2"
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+namespaces = false
+
+[project.optional-dependencies]
+dev = ["pytest", "fastapi", "uvicorn", "pydantic"]
